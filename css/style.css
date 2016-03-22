@@ -1,0 +1,22 @@
+/* Stylesheet by Tobin McGilligan, 2016 */
+
+body {
+	margin: 0;
+    text-align: center;
+}
+.map {
+    border: medium solid #999;
+}
+.gratBackground {
+    fill: #D5E3FF;
+}
+.gratLines {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+}
+.states {
+    fill: #FFF;
+    stroke: #CCC;
+    stroke-width: 2px;
+}
