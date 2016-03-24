@@ -2,13 +2,52 @@
 
 body {
 	margin: 0;
+    padding: 15px;
     text-align: center;
 }
 .map {
     border: medium solid #999;
+    margin-right: 15px;
+}
+.chartTitle {
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.chartSubtitle {
+    font-family: sans-serif;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+.chartBackground {
+    fill: rgba(128,128,128,.2);
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #999;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+.numbers {
+    fill: white;
+    font-family: sans-serif;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    fill: #999;
 }
 .gratBackground {
-    fill: #D5E3FF;
+    fill: #fff;
 }
 .gratLines {
     fill: none;
@@ -16,7 +55,8 @@ body {
     stroke-width: 1px;
 }
 .states {
-    fill: #FFF;
-    stroke: #CCC;
-    stroke-width: 2px;
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 1px;
+    stroke-linecap: round;
 }
